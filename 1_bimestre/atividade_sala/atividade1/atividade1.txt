@@ -16,7 +16,7 @@ S => aSc => abBcc => abbcc
 *{ L(G) =  { w e T* | w = a^n, b^m, c^m+n | onde h, m pertence aos Naturais ^ m != 1 }}*
 
 essa gramatica me gera uma palavra que pode ser vazia onde o quantidade de 'a' e 'b' somadas, é igual a quantidade de 'c'
-contato que a quantidade de 'b' seja direferente de 1
+contanto que a quantidade de 'b' seja direferente de 1
 
 
 *b) G = ( { S, B }, {a}, {S-> aS1, S1 -> aS2, S2 -> aS3, S3 -> aS | a }, { S })*
