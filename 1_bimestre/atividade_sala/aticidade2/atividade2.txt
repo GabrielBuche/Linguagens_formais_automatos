@@ -1,0 +1,17 @@
+# atividade do dia 11/03/2025
+
+## Desenvolva Autômatos que reconhecam as seguintes linguagens:
+
+1- {W E { a, b }* | aaa é subpalavra de w}
+
+
+
+
+2- { W E { a, b }* | sufixo de W é aa  }
+
+
+3- {W E { a, b }* | o prefixo de W é ab E abab é subpalvra de W }
+
+
+
+obs: gere a tabel de transição e a quintupla para cada automato
