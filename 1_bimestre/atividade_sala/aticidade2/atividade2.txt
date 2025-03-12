@@ -1,17 +1,19 @@
-# atividade do dia 11/03/2025
+atividade do dia 11/03/2025
 
-## Desenvolva Autômatos que reconhecam as seguintes linguagens:
+Desenvolva Autômatos que reconhecam as seguintes linguagens:
 
 1- {W E { a, b }* | aaa é subpalavra de w}
 
-
-
+m1 = ( { a, b }, { Q0, Q1, Q2, Q3 }, {S1, Q0}, {Q3})
 
 2- { W E { a, b }* | sufixo de W é aa  }
 
+m1 = ( { a, b }, { Q0, Q1, Q2 }, {S1, Q0}, {Q2})
 
 3- {W E { a, b }* | o prefixo de W é ab E abab é subpalvra de W }
 
+m1 = ( { a, b }, { Q0, Q1, Q2, Q3, Q4, Q5, Q6 }, {S1, Q0}, {Q6})
 
+4- (desafio) {W E {a, b}* | w possui uma quantidade impar de acb}
 
 obs: gere a tabel de transição e a quintupla para cada automato
